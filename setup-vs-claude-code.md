@@ -43,6 +43,11 @@ After the install:
 ```
 /reload-plugins 
 ```
+## Set Permissions 
+This is not documented but useful
+```
+find /home/zorrik/.claude/plugins/marketplaces/claude-plugins-official -name "*.sh" -exec chmod +x {} \;
+```
 
 ## Design & Architecture Plugins... 
 ```
