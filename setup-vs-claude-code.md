@@ -22,6 +22,15 @@ claude  --allowedTools "Bash(*)" "Edit(*)" "Write(*)" "Read(*)" "WebFetch(*)" --
 # Terminal Suggestion
 install WARP terminal - VS Code terminal sucks
 
+# DEBUGGING
+There are sometimes errors.
+Try CTRL+SHIFT+P -> Reload Claude.
+If does not work
+'''
+claude auth logout && claude auth login
+'''
+
+reload VS Code window (Cmd+Shift+P → "Developer: Reload Window")
 
 # PLUGINS
 ***you  DO NOT NEED TO USE commands below***
